@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //set layout orientation
-        setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+//        setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
 
         webView = (WebView) findViewById(R.id.webview);
